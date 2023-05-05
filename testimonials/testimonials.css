@@ -1,0 +1,111 @@
+/* Global styles for the entire website */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+}
+
+/* Styles for the header */
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FFF;
+	color: #333;
+}
+
+/* Styles for the main content */
+main {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for the testimonials */
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonial {
+    margin: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .testimonial blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.4;
+    text-align: center;
+    display: none;
+  }
+  
+  .testimonial blockquote p {
+    margin: 0;
+  }
+  
+  .testimonial blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 1em;
+    color: #666;
+  }

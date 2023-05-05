@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me - My Personal Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<header>
+		<img src="img/myphoto.jpg" alt="My Photo">
+		<h1>John Doe</h1>
+	</header>
+    <form id="contact-form" action="submit-form.php">
+	<nav>
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="../education/education.html">Education</a></li>
+			<li><a href="../experience/experience.html">Experience</a></li>
+			<li><a href="../hobbies/hobbies.html">Hobbies</a></li>
+			<li><a href="../journal/journal.html">Journal</a></li>
+			<li><a href="../blog/blog.html">Blog</a></li>
+			<li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+			<li><a href="../testimonials/testimonials.html">Testimonials</a></li>
+			<li><a href="../career/career.html">Career</a></li>
+			<li><a href="../travel/travel.html">Travel</a></li>
+			<li><a href="../contact/contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h2>Contact Me</h2>
+		<form id="contact-form">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="subject">Subject:</label>
+			<input type="text" id="subject" name="subject" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<button type="submit">Send Message</button>
+		</form>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 John Doe. All rights reserved.</p>
+	</footer>
+
+	<script src="contact.js"></script>
+</body>
+</html>

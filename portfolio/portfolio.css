@@ -1,0 +1,94 @@
+/* Global styles for the entire website */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+}
+
+/* Styles for the header */
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FFF;
+	color: #333;
+}
+
+/* Styles for the main content */
+main {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for the portfolio items */
+.portfolio-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.portfolio-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.portfolio-item h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}

@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+    }
+
+    h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+    
+
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+
+    li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px #CCCCCC;
+    transition: box-shadow 0.3s ease;
+    }
+    
+    li:hover {
+    box-shadow: 0px 0px 10px #CCCCCC;
+    }
+    
+    /* Styles for the hobby title */
+    h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    }
+    
+    /* Styles for the hobby description */
+    p.description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    display: none;
+    }
+    
+    /* Styles for the visible hobby description */
+    p.show {
+    display: block;
+    }

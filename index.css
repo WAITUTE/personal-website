@@ -1,0 +1,73 @@
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #F8F8F8;
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 10px 0 0;
+}
+
+/* Navigation styles */
+nav {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FFF;
+	color: #333;
+}
+
+/* Main content styles */
+main {
+	margin: 20px;
+  height: 330px;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
